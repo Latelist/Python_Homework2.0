@@ -6,7 +6,7 @@ try:
     N = int(input('Enter number: '))
 
     list = [1]
-    for i in range(1, (N + 1)):
+    for i in range(1, (N)):
         list.append(list[i-1] * (i+1))
 
     print(list)
